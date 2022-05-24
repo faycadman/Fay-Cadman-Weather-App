@@ -45,10 +45,24 @@ a:hover {
   margin: 30px auto;
 }
 
+#background-img {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  max-width: 100%;
+  min-height: 100%;
+  z-index: -5;
+  opacity: 0.5;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .weather-app {
   padding: 20px;
   border: 1px solid #e40046;
   border-radius: 5px;
+  background-color: #000;
 }
 
 .btn-primary {
